@@ -9,7 +9,7 @@ function BtnFilter({ name, removeItem, indexId }) {
         className="bg-[#5BA4A4]  border h-full px-2 py-2 rounded-r-lg hover:bg-[#2C3A3A]"
         onClick={removeItem}
       >
-        <img src="/images/icon-remove.svg" alt="remove" />
+        <img src="images/icon-remove.svg" alt="remove" />
       </figure>
     </button>
   );
