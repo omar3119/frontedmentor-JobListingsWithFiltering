@@ -16,7 +16,7 @@ function Card(data) {
   }
   return (
     <div
-      className={`w-[90%] desktop:w-full bg-white p-6 rounded-md relative shadow-lg laptop:flex laptop:justify-between laptop:items-center ${
+      className={`w-full desktop:w-full bg-white p-6 rounded-md relative shadow-lg laptop:flex laptop:justify-between laptop:items-center ${
         data.data.featured ? "border-l-[6px] border-[#5BA4A4]" : ""
       }`}
     >
